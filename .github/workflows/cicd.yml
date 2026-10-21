@@ -1,10 +1,12 @@
 name: CSC325 Demo 2 CI/CD
+
 on:
   push:
     branches:
       - main
 
- jobs:
+
+jobs:
    build-test-security-deploy:
      runs-on: ubuntu-latest
      steps:
